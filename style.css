@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    flex: 1;
+}
+.normal{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin: 50px auto;
+}
+
+button{
+    width: 100px;
+    height: 45px;
+    border-radius: 45%;
+    border: 1px solid #777;
+}
+
+button:hover{
+    background-color: #5544dd;
+    border-radius: 30px;
+}
